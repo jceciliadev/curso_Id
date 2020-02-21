@@ -5,7 +5,60 @@
     <title>MI PAGINA WEB</title>
 </head>
 <body>
-<P>OOOIUIOUIOUIOUIO</P>
+<P></P>
+<label>Superhéroe favorito</label>
+<input list="superheroes" name="list" />
+<datalist id="superheroes">
+    <option label="Iron Man" value="Iron Man">
+    <option label="The Hulk" value="The Hulk">
 
+</datalist>
+<form>
+    First name: <input type="text" name="firstname" /> <br />
+    Surname: <input type="text" name="surname" /> <br />
+    <input type="submit" value="Submit now" />
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+    <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+
+    </select>
+    <option value="fiat" selected>Fiat</option>
+    <textarea name="message" rows="10" cols="30">
+arwen mathias
+</textarea>
+    <form action="action_page.php">
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    </form>
+    <form action="action_page.php">
+        Username: <input type="text" name="user">
+        Encryption: <keygen name="security">
+        <input type="submit">
+    </form>
+    <form action="action_page.asp"
+          oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range"  id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+    </form>
+
+
+</form>
+<input type="text" />
+<input />
 </body>
 </html>
